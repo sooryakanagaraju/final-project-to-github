@@ -1,2 +1,3 @@
 milestone-1 --- created login page , all movies and movie details page
 milestone-2 --- search for movies done!!!.
+milestone-3 --- filtering the movie according to genre done!!!.

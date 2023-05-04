@@ -1,0 +1,46 @@
+<div class="rform">
+    <form  [formGroup]="reviewForm"  (submit)="saveReview(prod)">
+           <table>
+               <tr>
+               <th>Name</th>
+               <td><input type="text" formControlName="name"></td>
+               <td>
+                      <div *ngIf='reviewForm.controls.name.hasError("required")'>
+                              Should be filled</div>
+                   <div *ngIf='reviewForm.controls.name.hasError("minlength")'>
+                                  Atleast Three Characters long</div>
+               </td>
+               </tr>
+                <tr>
+               <th>Email</th>
+               <td><input type="text" formControlName="email"></td>
+               <td>
+                      <div *ngIf='reviewForm.controls.email.hasError("required")'>
+                              Should be filled</div>
+                      <div *ngIf='reviewForm.controls.email.hasError("pattern")'>
+                                  Should be in email format</div>
+               </td>
+               </tr>
+            
+               <tr>
+                   <th>Message</th>
+                   <td><textarea rows=6 cols=50 formControlName="message">
+                       </textarea></td>
+                   <td>
+                          <div *ngIf='reviewForm.controls.message.hasError("required")'>
+                                  Should be filled</div>
+                        <div *ngIf='reviewForm.controls.message.hasError("minlength")'>
+                                    Atleast 15 characters long</div>
+                   </td>
+               </tr>
+               <tr><td colspan="3" style="text-align:center">
+                      <button type="submit"  class="btn btn-primary" [disabled]="!reviewForm.valid">
+                                 Post Review</button>
+                  </td></tr>
+           </table>
+
+
+      </form>
+
+   
+  </div>

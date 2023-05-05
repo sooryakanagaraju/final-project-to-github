@@ -1,0 +1,41 @@
+<div id="Productdetails-container">
+    <div id="image-block">
+        <img src="http://localhost//{{state.image}}">
+    </div>
+    <div id="description-block">
+       <h1>{{state.name}}</h1>
+
+       <p>
+           {{state.description}}
+       </p>
+       <h3>
+        {{state.released}}
+       </h3>
+
+    </div>
+</div>
+<div class="reviewcontainer">
+    <hr>
+    
+          <div class="review" *ngFor="let x of reviews | reviewfilter :state.name">
+              <p class="data">{{x.name}} !!!</p>
+              <p class="data">"{{x.message}}"</p>
+          </div>
+    <hr>
+    </div>
+<!-- 
+// bootstrap changing style -->
+
+
+
+
+
+
+
+
+
+
+<div>
+    <app-reviews [prod] = "state.name"></app-reviews>
+</div>
+

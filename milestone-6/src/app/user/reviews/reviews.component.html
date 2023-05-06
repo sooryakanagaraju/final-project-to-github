@@ -1,0 +1,143 @@
+<!-- <form>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">Password</label>
+        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress">Address</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="form-group">
+      <label for="inputAddress2">Address 2</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputState">State</label>
+        <select id="inputState" class="form-control">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="form-group col-md-2">
+        <label for="inputZip">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </form>
+ -->
+
+
+
+<div class="rform">
+   <h1 style="color: white;margin-top: 30px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> Post your Reviews</h1>
+    <form  [formGroup]="reviewForm"  (submit)="saveReview(prod)">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Name</label>
+              <input class="form-control" id="inputEmail4" placeholder="Name" formControlName="name">
+              
+              <div *ngIf='reviewForm.controls.name.hasError("required")' class="message">
+                Should be filled</div>
+     <div *ngIf='reviewForm.controls.name.hasError("minlength")' class="message">
+                    Atleast Three Characters long</div>
+            </div>
+
+            </div>
+            
+            
+            <!---------------------------------->
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Email</label>
+                  <input formControlName="email" type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                  <div *ngIf='reviewForm.controls.email.hasError("required")' class="message">
+                    Should be filled</div>
+            <div *ngIf='reviewForm.controls.email.hasError("pattern")' class="message">
+                        Should be in email format</div>
+                </div>
+                </div>
+<!---------------------------------------------------->
+
+
+<div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Message</label>
+      <input class="form-control" id="inputEmail4" placeholder="Message" formControlName="message">
+      <div *ngIf='reviewForm.controls.message.hasError("required")' class="message">
+        Should be filled</div>
+<div *ngIf='reviewForm.controls.message.hasError("minlength")' class="message">
+          Atleast 15 characters long</div>
+    </div>
+
+    </div>
+    <button type="submit"  class="btn btn-primary" [disabled]="!reviewForm.valid">
+        Post Review</button>
+
+
+</form>
+</div>
+        <!-------------------------------------------------------->
+<!--     
+        <table>
+               <tr>
+               <th>Name</th>
+               <td><input type="text" formControlName="name"></td>
+               <td>
+                <div *ngIf='reviewForm.controls.email.hasError("required")'>
+                    Should be filled</div>
+            <div *ngIf='reviewForm.controls.email.hasError("pattern")'>
+                        Should be in email format</div>
+               </td>
+               </tr>
+                <tr>
+               <th>Email</th>
+               <td><input type="text" formControlName="email"></td>
+               <td>
+                      <div *ngIf='reviewForm.controls.email.hasError("required")'>
+                              Should be filled</div>
+                      <div *ngIf='reviewForm.controls.email.hasError("pattern")'>
+                                  Should be in email format</div>
+               </td>
+               </tr>
+            
+               <tr>
+                   <th>Message</th>
+                   <td><textarea rows=6 cols=50 formControlName="message">
+                       </textarea></td>
+                   <td>
+                          <div *ngIf='reviewForm.controls.message.hasError("required")'>
+                                  Should be filled</div>
+                        <div *ngIf='reviewForm.controls.message.hasError("minlength")'>
+                                    Atleast 15 characters long</div>
+                   </td>
+               </tr>
+               <tr><td colspan="3" style="text-align:center">
+                      <button type="submit"  class="btn btn-primary" [disabled]="!reviewForm.valid">
+                                 Post Review</button>
+                  </td></tr>
+           </table> -->
+
+
+      
+
+   

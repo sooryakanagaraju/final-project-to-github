@@ -1,0 +1,61 @@
+<div mat-dialog-title>
+    <h1>Moview Reviews</h1>
+</div>
+<form [formGroup]="empForm" (ngSubmit)="onFormSubmit()">
+    <div mat-dialog-content class="content">
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>name</mat-label>
+                <input matInput type="text" placeholder="Ex. Technical" formControlName="name">
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Genre</mat-label>
+                <mat-select formControlName="genre">
+                    <mat-option *ngFor="let val of genre" [value]="val">{{val}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+            
+        </div>
+
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Released</mat-label>
+                <input matInput [matDatepicker]="picker" formControlName="Released">
+                <mat-hint>MM/DD/YYYY</mat-hint>
+                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Directors</mat-label>
+                <input matInput placeholder="Ex. Babaji" formControlName="director">
+            </mat-form-field>
+           
+            
+        </div>
+
+        <div class="row">
+            
+            <mat-form-field appearance="outline">
+                <mat-label>Starring</mat-label>
+                <input matInput placeholder="Starring" formControlName="starring">
+            </mat-form-field>
+
+            <mat-form-field appearance="outline">
+                <mat-label>description</mat-label>
+                <input matInput placeholder="description" formControlName="description">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Image URL</mat-label>
+                <input matInput placeholder="http://localhost//image.url"  formControlName="image">
+            </mat-form-field>
+        </div>
+    </div>
+    <div mat-dialog-actions class="action">
+        <button mat-raised-button type="button" [mat-dialog-close]="false">Cancel</button>
+        <button mat-raised-button color="primary" type="submit">{{data ? 'Update': 'Save'}}</button>
+    </div>
+</form>

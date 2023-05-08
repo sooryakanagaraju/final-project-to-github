@@ -1,0 +1,11 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <ul class="navbar-nav mr-auto"> 
+    <a class="nav-link" (click)="All()">All</a>
+    <a class="nav-link" (click)="Adventure()">Adventure</a>
+    <a class="nav-link"(click)="Action()">Action</a>
+    <a class="nav-link"(click)="Drama()">Drama</a>
+    <a class="nav-link"(click)="Fantasy()">Fantasy</a>
+    </ul>
+</nav>
+
+<app-movie *ngFor="let x of movies | filtermovie:searchkey:'name'|typesfilter:selected" [movie]="x"></app-movie>

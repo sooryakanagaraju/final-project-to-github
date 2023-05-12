@@ -1,0 +1,8 @@
+<div class="card product container" style="width: 18rem; margin-left: 20px;" (click)="changeroutedetails()">
+    <img class="card-img-top" src="http://localhost//{{movie.image}}">
+    <div class="card-body">
+      <p class="card-text">{{movie.name}}</p>
+      <p class="card-text">{{movie.genre}}</p>
+      <img src="http://localhost//delete icon.png" style="width: 7%;" (click)="deletefav(movie.id)">
+    </div>
+  </div>

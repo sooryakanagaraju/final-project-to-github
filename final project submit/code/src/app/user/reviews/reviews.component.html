@@ -29,7 +29,10 @@
 
 <div class="form-row">
     <div class="form-group col-md-6">
-      <input class="form-control" id="inputEmail4" placeholder="Message" formControlName="message">
+    <!--   <input class="form-control" id="inputEmail4" type="text" placeholder="Message" formControlName="message"> -->
+      <textarea class="form-control" id="inputEmail4" type="text" placeholder="Message" formControlName="message" id="w3review" name="w3review" rows="4" cols="50">
+       
+        </textarea>
       <div *ngIf='reviewForm.controls.message.hasError("required")' class="message">
         Should be filled</div>
 <div *ngIf='reviewForm.controls.message.hasError("minlength")' class="message">

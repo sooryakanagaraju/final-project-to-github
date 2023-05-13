@@ -1,0 +1,20 @@
+A movie review site is a platform where users can read and write reviews about movies they have watched. 
+As the owner of a movie review site, you want to provide a platform where users can easily find and read 
+reviews, share their own opinions. 
+
+the project contains
+services
+pipes 
+filter
+table
+json-server
+login-authentication 
+custom directive
+navigation 
+lazy loading 
+chart- graph (not hard coded)
+bootstrap 
+material module 
+forms
+CRUD operations
+

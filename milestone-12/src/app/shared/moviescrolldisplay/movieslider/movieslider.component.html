@@ -1,0 +1,13 @@
+<div class="product-container" style="width:90%">
+    <h1 style="color:aliceblue; margin-left: 20px;" >Trending now</h1>
+    <div id="corner-arrow-left"  [appScrollleft]="100" >
+         <img src="http://localhost//leftarrow.png">
+    </div>
+    <div id="corner-arrow-right" [appScrolright]="100"  >
+         <img style="margin-left: 10%;" src="http://localhost//rightarr.png">
+    </div>
+<div class="product-scroll">
+    <app-movieitems *ngFor="let x of movies" [movie]="x"></app-movieitems>
+   
+</div>
+</div>

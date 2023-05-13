@@ -1,0 +1,22 @@
+<app-menu-outline> </app-menu-outline>
+
+<mat-toolbar class="nav">
+    
+    <span class="example-spacer"></span>
+    
+    <button mat-raised-button (click)="routetomoviereview()">
+      Movie Review
+    </button>
+    <button mat-raised-button (click)="changeroute()">
+      Feedback Review
+    </button>
+    <button mat-raised-button (click)="routetousercontrol()">
+      User Control
+    </button>
+    <button mat-raised-button (click)="routetodashboard()">
+      Dashboard
+    </button>
+  </mat-toolbar>
+
+
+<router-outlet></router-outlet>

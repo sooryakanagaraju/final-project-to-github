@@ -1,0 +1,108 @@
+#Productdetails-container
+{
+    overflow: hidden;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+#image-block{
+   float:left;
+   width: 35%;
+   min-height: 500px;
+   padding: 50px;
+   padding-top:100px;
+   text-align: center;
+}
+
+#image-block img{
+    height: 90%;
+    width: 90%;
+    box-shadow: 2px 2px 30px rgb(215, 230, 223);
+    border: 1px solid rgb(192, 255, 206);
+}
+
+.imagewish{
+    width: 5%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+#description-block{
+    float: left;
+    width: 60%;
+    margin-top: 10%;
+    min-height: 500px;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0)
+}
+
+#description-block p{
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: gray;
+}
+
+#description-block h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(19, 177, 46);
+}
+
+#description-block button{
+    margin-top: 50px;
+    color: rgb(207, 235, 213);
+    background-color: rgb(22, 241, 121);
+}
+
+#description-block input[type="number"]{
+    
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 20px;
+    color: rgb(85, 236, 92);
+}
+
+@media only screen and (max-width: 720px) {
+    #image-block{
+          float: none;
+          width: 100%;
+          height: 100px;
+    }
+    #description-block{
+        float: none;
+    }
+}
+
+body {margin:2rem;}
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .card-columns {column-count: 4;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+ .card-columns {column-count: 4;}
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+   .card-columns {column-count: 5;} 
+}
+
+
+.containercard{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 250px;
+
+}
+
+.imageback{
+    position: absolute;
+}

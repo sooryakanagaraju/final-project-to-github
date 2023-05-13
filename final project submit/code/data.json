@@ -1,0 +1,672 @@
+{
+  "users": [
+    {
+      "email": "anil@gmail.com",
+      "password": "$2a$10$qLCzxp8bYoFl0TUnM3khkOQed/oj6p0Vi9m91/WIlZqn6dzwsD4Iu",
+      "firstname": "Anil",
+      "lastname": "Kumar",
+      "id": 1
+    },
+    {
+      "email": "rahul@gmail.com",
+      "password": "$2a$10$GN3udmMj3FOG3Ya.tp5VmuBqBVwY0dYU1ro74BpVxs8xB0./Gqw8m",
+      "username": "rahul",
+      "lastname": "krishna",
+      "type": "user",
+      "id": 3
+    },
+    {
+      "email": "roger@gmail.com",
+      "password": "$2a$10$8VfL/mTrUsF7CsmFZBNCXuYKao0PM9CrOIxTn0iqWYoKD0vwPE1AC",
+      "username": "roger",
+      "lastname": "Federer",
+      "type": "admin",
+      "id": 4
+    },
+    {
+      "email": "jackson@gmail.com",
+      "password": "$2a$10$.ZPImtvO49SX6YMHepjxV.PXhJoEDXuxnCtHG2bQ2KY/NErZ0SGYW",
+      "username": "jackson",
+      "type": "admin",
+      "lastname": "Mike",
+      "id": 6
+    },
+    {
+      "email": "naresh@gmail.com",
+      "password": "$2a$10$OhQd/XS2d3PAiWrNnYWXleoGC.2bMdZajo/yd5BSAxbGeqLw7YtEO",
+      "username": "naresh",
+      "type": "user",
+      "lastname": "Mike",
+      "id": 7
+    },
+    {
+      "email": "soorya@gmail.com",
+      "password": "$2a$10$MM57vP34qtEF9Ck.TB5BW.CShcRif12eIY7xN1JAWapWYceVZ3KBq",
+      "username": "soorya",
+      "type": "user",
+      "lastname": "k",
+      "id": 9
+    },
+    {
+      "email": "rithick@gmail.com",
+      "password": "$2a$10$PuOnZnv1GsNjLKoc0kF1I.5JuCCL49LECr3RqCjIfqjjOXunxRSnm",
+      "username": "rithick",
+      "type": "user",
+      "id": 10
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$Sxd7SobGqJ4AG0pWn8kCJuyCYh5nFJ0Iqzr6h1PkWqJHa4ZY8usdq",
+      "username": "admin",
+      "type": "admin",
+      "lastname": "k",
+      "id": 11
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "movie": "The Shawshank Redemption",
+      "genre": "action",
+      "review": "This movie is a true masterpiece! The acting, direction, and script are all outstanding. The characters are well-developed and the story is engaging from start to finish. The film manages to be both heartwarming and heartbreaking at the same time, and the ending is unforgettable. I highly recommend this movie to anyone who loves great storytelling and excellent filmmaking.",
+      "rating": 9.5,
+      "source": "IMDb",
+      "image": "The Shawshank Redemption.jpg"
+    },
+    {
+      "id": 2,
+      "movie": "The Godfather",
+      "genre": "action",
+      "review": "This is a classic movie that has stood the test of time. The acting is superb and the story is engaging. The film is a masterpiece in every sense of the word. I highly recommend this movie to anyone who loves great cinema.",
+      "rating": 9.2,
+      "source": "IMDb",
+      "image": "The Godfather.jpg"
+    },
+    {
+      "id": 3,
+      "movie": "The Dark Knight",
+      "genre": "thriller",
+      "review": "This movie is a tour-de-force of action, suspense, and drama. The performances are excellent, especially Heath Ledger's unforgettable portrayal of the Joker. The story is dark and complex, and the action scenes are some of the best ever put on film. I highly recommend this movie to anyone who loves superhero movies or action thrillers.",
+      "rating": 9,
+      "source": "IMDb",
+      "image": "The Dark Knight.jpg"
+    },
+    {
+      "id": 4,
+      "movie": "Pulp Fiction",
+      "genre": "drama",
+      "review": "This movie is a true classic that redefined the crime genre. The script is sharp and witty, and the performances are outstanding. The nonlinear narrative structure is brilliant and keeps the viewer engaged throughout. I highly recommend this movie to anyone who loves great cinema.",
+      "rating": 8.9,
+      "source": "IMDb",
+      "image": "Pulp Fiction.jpg"
+    },
+    {
+      "id": 5,
+      "movie": "The Matrix",
+      "genre": "scifi",
+      "review": "This movie is a groundbreaking masterpiece that redefined the sci-fi genre. The visual effects are stunning and the action scenes are some of the most iconic in cinema history. The story is complex and thought-provoking, and the performances are excellent. I highly recommend this movie to anyone who loves science fiction or action thrillers.",
+      "rating": 8.7,
+      "source": "IMDb",
+      "image": "The Matrix.jpg"
+    },
+    {
+      "id": 6,
+      "movie": "Forrest Gump",
+      "genre": "adventure",
+      "review": "This movie is a heartwarming and inspiring tale of a man who overcomes incredible obstacles to achieve his dreams. Tom Hanks delivers an outstanding performance as Forrest, and the supporting cast is excellent as well. The film is funny, poignant, and unforgettable.",
+      "rating": 8.5,
+      "source": "IMDb",
+      "image": "Forrest Gump.jpg"
+    },
+    {
+      "id": 7,
+      "movie": "The Lord of the Rings: The Fellowship of the Ring",
+      "genre": "fantasy",
+      "review": "This movie is a breathtaking epic that transports the viewer to a magical world of adventure and wonder. The acting is superb, the visuals are stunning, and the story is engaging from start to finish. I highly recommend this movie to anyone who loves fantasy or epic films.",
+      "rating": 8.8,
+      "source": "IMDb",
+      "image": "The Lord of the Rings.jpg"
+    },
+    {
+      "id": 8,
+      "movie": "Fight Club",
+      "genre": "action",
+      "review": "This movie is a dark and edgy masterpiece that explores themes of masculinity, identity, and consumerism. The performances are outstanding, and the story is both thought-provoking and suspenseful. I highly recommend this movie to anyone who loves intense psychological thrillers.",
+      "rating": 8.6,
+      "source": "IMDb",
+      "image": "Fight Club.jpg"
+    }
+  ],
+  "actors": [
+    {
+      "name": "Tom Hanks",
+      "films": [
+        "Forrest Gump",
+        "Cast Away",
+        "Saving Private Ryan"
+      ],
+      "image": "Tom Hanks.jpg"
+    },
+    {
+      "name": "Meryl Streep",
+      "films": [
+        "The Devil Wears Prada",
+        "Sophie's Choice",
+        "Out of Africa"
+      ]
+    },
+    {
+      "name": "Leonardo DiCaprio",
+      "films": [
+        "The Revenant",
+        "The Wolf of Wall Street",
+        "Inception"
+      ]
+    },
+    {
+      "name": "Robert De Niro",
+      "films": [
+        "The Godfather Part II",
+        "Raging Bull",
+        "Goodfellas"
+      ]
+    },
+    {
+      "name": "Al Pacino",
+      "films": [
+        "The Godfather",
+        "Scarface",
+        "Heat"
+      ]
+    },
+    {
+      "name": "Denzel Washington",
+      "films": [
+        "Training Day",
+        "Malcolm X",
+        "The Book of Eli"
+      ]
+    },
+    {
+      "name": "Morgan Freeman",
+      "films": [
+        "The Shawshank Redemption",
+        "The Dark Knight",
+        "Million Dollar Baby"
+      ]
+    },
+    {
+      "name": "Brad Pitt",
+      "films": [
+        "Fight Club",
+        "Ocean's Eleven",
+        "Once Upon a Time in Hollywood"
+      ]
+    },
+    {
+      "name": "Angelina Jolie",
+      "films": [
+        "Maleficent",
+        "Mr. and Mrs. Smith",
+        "Changeling"
+      ]
+    },
+    {
+      "name": "Emma Stone",
+      "films": [
+        "La La Land",
+        "The Help",
+        "Birdman"
+      ]
+    },
+    {
+      "name": "Ryan Gosling",
+      "films": [
+        "Drive",
+        "The Notebook",
+        "Blade Runner 2049"
+      ]
+    },
+    {
+      "name": "Jennifer Lawrence",
+      "films": [
+        "Silver Linings Playbook",
+        "The Hunger Games",
+        "American Hustle"
+      ]
+    },
+    {
+      "name": "George Clooney",
+      "films": [
+        "Ocean's Eleven",
+        "Gravity",
+        "Up in the Air"
+      ]
+    },
+    {
+      "name": "Sandra Bullock",
+      "films": [
+        "Gravity",
+        "The Blind Side",
+        "Speed"
+      ]
+    },
+    {
+      "name": "Johnny Depp",
+      "films": [
+        "Pirates of the Caribbean",
+        "Edward Scissorhands",
+        "Charlie and the Chocolate Factory"
+      ]
+    },
+    {
+      "name": "Matt Damon",
+      "films": [
+        "Good Will Hunting",
+        "The Bourne Identity",
+        "The Martian"
+      ]
+    },
+    {
+      "name": "Natalie Portman",
+      "films": [
+        "Black Swan",
+        "V for Vendetta",
+        "The Professional"
+      ]
+    },
+    {
+      "name": "Joaquin Phoenix",
+      "films": [
+        "Joker",
+        "Walk the Line",
+        "Her"
+      ]
+    },
+    {
+      "name": "Scarlett Johansson",
+      "films": [
+        "Lost in Translation",
+        "The Avengers",
+        "Marriage Story"
+      ]
+    }
+  ],
+  "moviess": [
+    {
+      "id": 2,
+      "name": "The Pope's Exorcist",
+      "genre": "Thriller",
+      "Released": 2023,
+      "director": "Julius Avery.",
+      "starring": "Russell Crowe, Daniel Zovatto, Alex Essoe.",
+      "description": "Father Gabriel Amorth devoted his entire life to serving the church and fighting the demons that overwhelmed human souls. However, in recent times, his impulses have increasingly found no response among the rest of the clergy. Few people take Father Amort seriously. His attempts to prove the need to fight demons do not lead to the proper result, and the arguments are not taken seriously, because recently science and medicine have advanced far ahead and many of those whom the church recently considered possessed are now recognized as sick people. However, this does not mean that the dark forces have ceased to overcome people and that there are still those in whom evil has really settled. This is what Amorth is trying to prove to the rest of the clergy.",
+      "image": "The Pope's Exorcist.jpg",
+      "coverphoto": "pope cover.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Renfield",
+      "genre": "Comedy",
+      "Released": 2023,
+      "director": "Chris McKay.",
+      "starring": "Nicholas Hoult, Nicolas Cage, Awkwafina.",
+      "description": "Renfield was in constant service to Dracula for several centuries, considering his mission valuable and important. The outside world did not adequately perceive the image of an unusual guy, not knowing the details of his reality and endless misadventures. He was condemned, forcibly treated in a psychiatric clinic and did everything possible to correct his behavior. It seemed almost impossible, since the consciousness of the hero was strikingly different from the usual and adequate perception of most people.",
+      "image": "Renfield.jpg",
+      "coverphoto": "renfield cover.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Invitation to a Murder",
+      "genre": "Mystery",
+      "Released": 2023,
+      "director": "Stephen Shimek",
+      "starring": "Mischa Barton, Chris Browning, Bianca A. Santos.",
+      "description": "The plot of this thriller takes place in the South of England in 1934. The main character of the film is a young female florist Miranda Green (Mischa Barton), who is fond of detective novels by Agatha Christie. One day, she receives an unexpected invitation from billionaire Lewis Findley, who made his fortune in the textile trade, to visit Abbott Island. Miranda's friend Annette advises her not to attend this dubious event, which does not even indicate its purpose, but the main character, feeling the spirit of an exciting adventure, decides to go there.",
+      "image": "Invitation to a Murder.jpg",
+      "coverphoto": "Invitation to a Murder cover.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Last Sentinel",
+      "genre": "Drama",
+      "Released": 2023,
+      "director": "Tanel Toom.",
+      "starring": "Kate Bosworth, Lucien Laviscount, Martin McCann.",
+      "description": "Humanity is going through hard times. People are forced to resist the invaders, who are technologically more advanced. The military, located on special bases, are trying to provide decent resistance to them. However, many places of deployment of soldiers by this time had already been abandoned or the command had lost contact with them.",
+      "image": "Last Sentinel.jpg",
+      "coverphoto": "Last Sentinel cover.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Clock",
+      "genre": "Horror",
+      "Released": 2023,
+      "director": "Alexis Jacknow.",
+      "starring": "Dianna Agron, Melora Hardin, Jay Ali.",
+      "description": "In the center of the plot is a young and pretty woman Ella. She is happily married to her husband Aidan, but the people around them wonder why such a successful couple still has no children?! Neighbors and friends besiege Ella with questions, when will she have a baby?! Their opinion puts pressure on the psyche, they do not understand how you can live without children and what do they do without them?! And Ella's answer that she does not want to have children revolts and repels them. Even her beloved father, gathering together at the same table, never ceases to hint that there are too many empty chairs in their house.",
+      "image": "Clock.jpg",
+      "coverphoto": "clock cover.jpg"
+    },
+    {
+      "id": 7,
+      "name": "The Artifice Girl",
+      "genre": "Mystery",
+      "Released": 2023,
+      "director": "Franklin Ritch.",
+      "starring": "Tatum Matthews, Lance Henriksen, Sinda Nichols.",
+      "description": "A team of special agents discovers a revolutionary new computer program to bait and trap online predators.",
+      "image": "The Artifice Girl.jpg",
+      "coverphoto": "The Artifice Girl cover.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Space Oddity",
+      "genre": "Comedy",
+      "Released": 2023,
+      "director": " Kyra Sedgwick",
+      "starring": "Kyle Allen, Alexandra Shipp, Madeline Brewer.",
+      "description": "A team of special agents discovers a revolutionary new computer program to bait and trap online predators.",
+      "image": "Space Oddity.jpg",
+      "coverphoto": "Space Oddity cover.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Ant-Man and the Wasp: Quantumania",
+      "genre": "Adventure",
+      "Released": 2023,
+      "director": " Peyton Reed.",
+      "starring": "Paul Rudd, Evangeline Lilly, Michael Douglas.",
+      "description": "At one time, Hank Pym, in collaboration with his wife, Janet Van Dyne, discovered the ability to change the size of a wide variety of objects and even people. However, the most interesting thing happened if the object became smaller than an atom. Then he fell into the so-called Quantum World. The usual laws of physics do not work there, and getting back is extremely problematic. Carried away by the study, the faithful for how many decades was lost in the above dimension. Hank, on the other hand, continued to make rescue attempts, while creating the Ant-Man suit.",
+      "image": "antman.jpg",
+      "coverphoto": "AntMan and the Wasp cover.jpg"
+    },
+    {
+      "id": 10,
+      "name": "A Good Person",
+      "genre": "Drama",
+      "Released": 2023,
+      "director": " Zach Braff",
+      "starring": "Florence Pugh, Morgan Freeman, Celeste O'Connor.",
+      "description": "Daniel has to raise his growing granddaughter alone due to certain life circumstances. The moment came when she turned from a child into a teenager with all the attendant problems of her troubled age. This girl cannot come to terms with the tragic death of her mother, and even the guardianship and attention of a caring grandfather are not able to help cope with the pain. Daniel tries to calm her down, but he himself is fully aware that he will not be able to replace her mother, no matter how much strength he puts in. He constantly has to pretend that he managed to overcome this trouble, although in reality this is far from being true.",
+      "image": "A Good Person.jpg",
+      "coverphoto": "A Good Person cover.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Shazam! Fury of the Gods",
+      "genre": "Action",
+      "Released": 2023,
+      "director": " David F. Sandberg. ",
+      "starring": " Zachary Levi, Asher Angel, Jack Dylan Grazer.",
+      "description": "The life of an ordinary fourteen-year-old boy changes dramatically after a chance meeting with a magician. Thanks to the magic word, Billy Batson transforms into a Superhero who saves the world from the intervention of mystical powers that have power. Endowed with super strength, the heroic defender challenges criminals. The flying superhero prevents catastrophes, defeats everyone who plans to plunge the world into darkness and dreams of power over humanity. A super-strong and courageous superman, having accomplished several feats, begins to doubt success and considers himself unworthy in comparison with Batman or Aquaman.",
+      "image": "Shazam! Fury of the Gods.jpg",
+      "coverphoto": "Shazam! Fury of the Gods cover.jpg"
+    },
+    {
+      "id": 12,
+      "name": "65",
+      "genre": "Adventure",
+      "Released": 2023,
+      "director": " Scott Beck, Bryan Woods.",
+      "starring": " Adam Driver, Ariana Greenblatt, Chloe Coleman.",
+      "description": "After a crash on an unknown planet, pilot Mills quickly discovers that he's actually stuck on Earth... 65 million years ago.Now, with only one chance to escape, Mills and the last surviving Koa must make their way through an unknown area infested with dangerous creatures.",
+      "image": "65.jpg"
+    },
+    {
+      "id": 13,
+      "name": "The Portable Door",
+      "genre": "Fantasy.",
+      "Released": 2023,
+      "director": "Jeffrey Walker.",
+      "starring": "Patrick Gibson, Christoph Waltz, Sam Neill.",
+      "description": "Paul Carpenter is an ordinary guy who gets a job in the most ordinary office as a simple clerk. The young man suggested that his duties would include parsing papers and carrying out assignments.However, upon entering the office building, the atmosphere greatly surprised the hero of the film. Along with their tasks, the character noticed that other employees were investigating mysterious incidents and searching for powerful artifacts. As it turned out, the employees checked cases where magic was involved, and report this to management.",
+      "image": "The Portable Door.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Assassin",
+      "genre": "Thriller",
+      "Released": 2023,
+      "director": " Jesse Atlas.",
+      "starring": " Bruce Willis, Andy Allo, Dominic Purcell.",
+      "description": "The plot introduces professional agents who will no longer do all the dirty work with their own hands. Previously, in order to eliminate the goal, it was necessary to hire experienced mercenaries, but in the modern world everything has become much easier. The fact is that experienced scientists have been working on a new project for a long time. As a result, they managed to create a unique technology, thanks to which a person got the opportunity to invade the minds of other people and force them to follow their orders. Now it remains only to connect to the minds of the close people of your enemy, and you can finish them off without any problems. Also, researchers can place the mind of a living person in the body, which recently died.",
+      "image": "Assassin.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Murder Mystery 2",
+      "genre": "Comedy",
+      "Released": 2023,
+      "director": "Jeremy Garelick.",
+      "starring": " Adam Sandler, Jennifer Aniston, Mark Strong.",
+      "description": "The plot of the film continues to tell about the Spitz family Nick and Audrey. From the first part, we remember that the couple went to Europe to take a break from the hustle and bustle. The man works as a police officer, and so failed to pass the exam for a detective. He decides not to tell the truth to his wife, and lies to her about his new position. The woman works in a beauty salon. After the lovers boarded the plane, they met a millionaire, who soon invited new acquaintances to have fun on a luxury yacht, the couple agreed to that.",
+      "image": "Murder Mystery 2.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Creed III",
+      "genre": "Drama",
+      "Released": 2023,
+      "director": " Michael B. Jordan.",
+      "starring": " Michael B. Jordan, Tessa Thompson, Jonathan Majors.",
+      "description": "A young guy Adonis Creed enjoys a quiet and peaceful family life. In the recent past, there was a rather difficult victory that he received in the ring, and now the time has come to relax a bit and devote time to loved ones. Suddenly, he learns that his old friend, rival, will soon be released. The boxer realizes that he is facing Damian Anderson. He plans to return to the ring again, but he just does not know how to implement his plan. A dangerous confrontation flares up, Donnie realizes that soon he will meet an old acquaintance outside the ring. Anderson has nothing to lose in life.",
+      "image": "Creed III.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Avatar: The Way of Water",
+      "genre": "Drama",
+      "Released": 2023,
+      "director": " Michael B. Jordan.",
+      "starring": " Michael B. Jordan, Tessa Thompson, Jonathan Majors.",
+      "description": "A young guy Adonis Creed enjoys a quiet and peaceful family life. In the recent past, there was a rather difficult victory that he received in the ring, and now the time has come to relax a bit and devote time to loved ones. Suddenly, he learns that his old friend, rival, will soon be released. The boxer realizes that he is facing Damian Anderson. He plans to return to the ring again, but he just does not know how to implement his plan. A dangerous confrontation flares up, Donnie realizes that soon he will meet an old acquaintance outside the ring. Anderson has nothing to lose in life.",
+      "image": "Avatar2.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Champions",
+      "genre": "Comedy",
+      "Released": 2023,
+      "director": "Bobby Farrelly.",
+      "starring": "Woody Harrelson, Kaitlin Olson, Matt Cook.",
+      "description": "Marcus worked as a basketball team coach, hoping to raise real champions. But his own mistakes led to horrific consequences for his pupils. Due to a court decision, he was removed from coaching. But instead of complete oblivion, he got a second chance for rehabilitation. By court order, he must lead a team of players with intellectual disabilities. Adults with the behavior and worldview of children hardly understand what Marcus requires of them.",
+      "image": "Champions.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Boston Strangler",
+      "genre": "Crime",
+      "Released": 2023,
+      "director": "Matt Ruskin.",
+      "starring": "Keira Knightley, Carrie Coon, Chris Cooper.",
+      "description": "USA, 60s. For a long time, Boston was considered quite quiet and comfortable for the life of an ordinary law-abiding citizen. But recently, local residents began to discuss with horror the death of another woman, strangled by an unknown madman. The police desperately tried to find the villain in the shortest possible time, but the case did not move forward, and there was catastrophically little evidence. The number of victims steadily increased, the public was worried. Then the law enforcement officers decided by any means to keep silent about the number of victims and the course of the ongoing investigation. What made the townspeople even more nervous.",
+      "image": "Boston Strangler.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Black Panther: Wakanda Forever",
+      "genre": "Action",
+      "Released": 2022,
+      "director": " Ryan Coogler.",
+      "starring": " Letitia Wright, Lupita Nyong'o, Danai Gurira.",
+      "description": "Amazing events are unfolding on the territory of the great state of Africa. The picturesque country of Wakanda is rapidly developing. Its hard-working inhabitants show off advanced technology and alien innovations. They are truly proud of the unique history of their people and modern innovations. Their region is rich in rare minerals. This is where vibranium is mined.",
+      "image": "blackpanther.jpg"
+    },
+    {
+      "id": 21,
+      "name": "The Guardians of the Galaxy Holiday Special",
+      "genre": "Adventure",
+      "Released": 2022,
+      "director": " James Gunn.",
+      "starring": " Chris Pratt, Pom Klementieff, Dave Bautista.",
+      "description": "This team of desperate heroes is known in every corner of the galaxy, because it is not for nothing that they shouldered the burden of responsibility for its safety, protecting it from all enemies, regardless of origin. Wandering through the endless expanses of space, they constantly get into some kind of dangerous adventure. However, thanks to mutual assistance, ingenuity and a sense of humor, which they have in abundance, the Guardians of the Galaxy, under the leadership of Star-Lord, always come out victorious, along the way making themselves not only an army of fans, but also sworn enemies who want to get even with them, making the most of it. efforts, but to no avail.",
+      "image": "The Guardians of the Galaxy Holiday Special.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Doctor Strange in the Multiverse of Madness",
+      "genre": "Adventure",
+      "Released": 2022,
+      "director": " Sam Raimi.",
+      "starring": " Benedict Cumberbatch, Elizabeth Olsen, Chiwetel Ejiofor.",
+      "description": "During the trip, the former doctor accidentally discovered mystical abilities in himself, with the help of which he could transform time and the surrounding space. After a crushing victory over the cruel tyrant Thanos, who sought to subjugate the whole world, Strange continued to closely study the Time Stone. Meanwhile, an old friend who has turned into a powerful terrorist has declared war on every sorcerer and mage. The frightened doctor did not understand that a bloody battle with an old enemy would lead to irreparable consequences. He will unleash an evil that will not stop until the universe is destroyed. Strange went to the legendary Scarlet Witch, Wanda. The new tandem surprisingly easily found a common language, and united for the fight against evil.",
+      "image": "Doctor Strange in the Multiverse of Madness.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Spider-Man: No Way Home",
+      "genre": "Action",
+      "Released": 2022,
+      "director": " Jon Watts.",
+      "starring": " Tom Holland, Zendaya, Benedict Cumberbatch.",
+      "description": "Continuation of the cult franchise based on the Marvel comics. A few years ago, Peter was an ordinary teenager, to whom few people paid attention. Everything changed after the acquisition of superpowers, which turned a schoolboy into a superhero nicknamed Spider-Man. Thanks to the influential mentor Tony Stark, Parker learned the basics of fighting crime, and then joined the Avengers team, taking part in the general battle with Thanos.",
+      "image": "SpiderManNo Way Home.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Eternals",
+      "genre": "Action",
+      "Released": 2022,
+      "director": " Chloe Zhao.",
+      "starring": "Gemma Chan, Richard Madden, Angelina Jolie.",
+      "description": "The Eternals is a new large-scale project of the MCU Marvel, based on the cycle of the comics of the same name. As part of a fantastic blockbuster, viewers will meet a whole group of new superheroes from different cultures living together on an isolated island. Being genetically improved people, they are forced to hide from prying eyes. Having united in a community, superheroes live away from worldly concerns, start families and adhere to ancient traditions that have allowed them to avoid their own disclosure for millennia. Only occasionally does the community have to engage in battles with deviants attacking ordinary smart ones.",
+      "image": "Eternals.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Venom: Let There Be Carnage",
+      "genre": "Adventure",
+      "Released": 2022,
+      "director": " Andy Serkis.",
+      "starring": " Tom Hardy, Woody Harrelson, Michelle Williams.",
+      "description": "Eddie Brock is used to his second I: the symbiote does not interfere with his existence in society at all: the protagonist continues to build a career as a reporter, meets girls and sometimes even uses superpowers for his own or the public good. One day, the authorities invite Brock to interview a dangerous criminal who is sentenced to death. Eddie agrees.",
+      "image": "Venom Let There Be Carnage.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Shang-Chi and the Legend of the Ten Rings",
+      "genre": "Fantasy",
+      "Released": 2021,
+      "director": "Destin Daniel Cretton.",
+      "starring": "Simu Liu, Awkwafina, Tony Chiu-Wai Leung.",
+      "description": "Since ancient times, ten magic rings gave the Shang-Chi ancestors strength and power. With their help, it was easy to defeat any, even the most powerful enemies, but it is not easy for a descendant to transfer these magical attributes into the hands of a descendant who is capable of proving true superiority in a fierce battle. Shang-Chi believed in the legend told to him by his parents, and trained from an early age, hoping to become a real martial artist and prove to his father that he was worthy to be the next guardian of the rings.",
+      "image": "Shang-Chi and the Legend of the Ten Rings.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Iron Man 2",
+      "genre": "Action",
+      "Released": 2012,
+      "director": "Jon Favreau.",
+      "starring": " Robert Downey Jr., Mickey Rourke, Gwyneth Paltrow.",
+      "description": "SWhen the government finds out who is the creator and sole operator of Iron Man's costume - an indestructible shell in which you can take off and fight, Tony Stark is invited to the conference. The armed forces declare his invention the property of the United States and demand to pass the secret to them, allegedly intending to use it for the benefit and for the protection of the country. The scientist does not agree to these requirements, rightly fearing that his creation will be used for selfish purposes and will become a threat to the whole world. The best minds in the world are trying to uncover the composition and mechanics of the action of armor, but all efforts endure a crushing fiasco, they were not able to get a centimeter closer to the solution to the structure.",
+      "image": "Iron Man 2.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Spider-Man: Far from Home",
+      "genre": "Adventure",
+      "Released": 2019,
+      "director": " Jon Watts.",
+      "starring": " Tom Holland, Samuel L. Jackson, Jake Gyllenhaal.",
+      "description": "Returning to New York after the tragic events that occurred on the planet Titan, Peter Parker decides to take a break from endless adventures, and together with true friends goes to London. The journey began just fine, the guys walked and had fun, forgetting about the deadly battles and bloody battles, until they ran into a professional magician and excellent hypnotist Quentin Beck, better known under the nickname Misterio.",
+      "image": "SpiderMan Far from Home.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Spider-Man: Homecoming",
+      "genre": "Adventure",
+      "Released": 2017,
+      "director": "Jon Watts.",
+      "starring": " Tom Holland, Michael Keaton, Robert Downey Jr.",
+      "description": "The grandiose slaughter of New York died down, and the Vulture and his team were awarded a contract to restore order in the city. But Tony Stark again stands in the way of Adrian Toomes, intercepting this mission with the help of his Department of Damage Control. Vulture in rage - it just pushed off the road, broke off the whole business! He persuades his poor fellows to work with Chitauri technology. And create a powerful weapon that can be illegally sold for big money.",
+      "image": "SpiderMan Homecoming.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Ant-Man and the Wasp",
+      "genre": "Adventure",
+      "Released": 2017,
+      "director": " Peyton Reed.",
+      "starring": " Paul Rudd, Evangeline Lilly, Michael Peña.r.",
+      "description": "Lang receives another task from the patrons. The upcoming mission is almost impossible, but the circumstances are such that it is impossible to entrust the execution of the most difficult task to anyone but the only contender for the title of savior of civilization. Ant-man is forced to agree with the proposal of his creator. It is necessary to penetrate into the laboratory of the exiled researcher and find the thread leading to the powerful adversary that lives in a parallel dimension. The relative of the ruined genius Wasp joins the hero to the hero. Brave couple embarks on a risky journey full of surprises and adventures.",
+      "image": "AntMan and the Wasp.jpg"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "soorya",
+      "email": "soorya@gmail.com",
+      "message": "it is a wonderfull movie. loved it !!",
+      "id": 7103
+    },
+    {
+      "id": 9310,
+      "name": "swetha ",
+      "email": "swetha@gmail.com",
+      "message": "this is good , but the climax was not up to expectations !!!1",
+      "product": "The Pope's Exorcist"
+    },
+    {
+      "id": 7026,
+      "name": "rithick",
+      "email": "rithick@gmail.com",
+      "message": "this movie has my heart",
+      "product": "Renfield"
+    },
+    {
+      "id": 7856,
+      "name": "soorya",
+      "email": "soorya@gmail.com",
+      "message": "this movie is so much adventures !!!. I loved it.",
+      "product": "The Pope's Exorcist"
+    },
+    {
+      "id": 9661,
+      "name": "soorya",
+      "email": "soorya@gmail.com",
+      "message": "wooww what a fight !!",
+      "product": "Creed III"
+    },
+    {
+      "id": 2321,
+      "name": "soorya",
+      "email": "soorya@gmail.com",
+      "message": "good",
+      "product": "A Good Person"
+    },
+    {
+      "id": 2913,
+      "name": "soorya",
+      "email": "soorya@gmail.com",
+      "message": "soorya",
+      "product": "Ant-Man and the Wasp: Quantumania"
+    },
+    {
+      "id": 5400,
+      "name": "soorya",
+      "email": "soorya@gmail.com",
+      "message": "good",
+      "product": "The Pope's Exorcist"
+    }
+  ],
+  "favourites": [
+    {
+      "id": 6261,
+      "name": "The Pope's Exorcist",
+      "image": "The Pope's Exorcist.jpg",
+      "genre": "Thriller",
+      "released": 2023,
+      "director": "Julius Avery."
+    },
+    {
+      "id": 2032,
+      "name": "Renfield",
+      "image": "Renfield.jpg",
+      "genre": "Comedy",
+      "released": 2023,
+      "director": "Chris McKay."
+    }
+  ]
+}
